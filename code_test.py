@@ -1,8 +1,8 @@
 import urllib.request
 
 url ='https://openapi.naver.com/v1/search/news.json?query="bts"%start=1&display=100'
-client_id = "FHNJ2I7ZTmp1s8EYyIpf"
-client_secret = "BoDoQtg7zU"
+client_id = ""
+client_secret = ""
 
 req = urllib.request.Request(url)  # 네이버서버에 보낼 요청객체를 생성
 req.add_header("X-Naver-Client-Id", client_id)  # 위에서 만들어진 요청객체에 client_id를 포함시킴

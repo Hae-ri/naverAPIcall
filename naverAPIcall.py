@@ -3,8 +3,8 @@ import json
 import datetime
 import time
 
-client_id = "FHNJ2I7ZTmp1s8EYyIpf"
-client_secret = "BoDoQtg7zU"
+client_id = ""
+client_secret = ""
 
 
 def getRequestUrl(url):
